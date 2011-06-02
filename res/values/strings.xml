@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="fun_text">I like &lt;font color=\'0x00b0f1\'>BLUE!&lt;/font> and &lt;b> Bold&lt;/b> and &lt;i> italic&lt;/i> and &lt;u> underline&lt;/u>.</string>
+	<string name="app_name">TextFun</string>
+</resources>
