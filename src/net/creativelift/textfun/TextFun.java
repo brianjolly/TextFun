@@ -15,9 +15,16 @@ public class TextFun extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
         
-        TextView text_view = (TextView) findViewById(R.id.text_view);
-        String styledText = text_view.getText().toString();
-        text_view.setText(Html.fromHtml(styledText),TextView.BufferType.SPANNABLE);
+        htmlify((TextView) findViewById(R.id.tv_style));
+        htmlify((TextView) findViewById(R.id.tv_color_map));
+        htmlify((TextView) findViewById(R.id.tv_formating));
+        htmlify((TextView) findViewById(R.id.tv_styling));
+        htmlify((TextView) findViewById(R.id.tv_headings));
         
+    }
+    
+    private void htmlify(TextView tv) {
+    	String styledText = tv.getText().toString();
+    	tv.setText(Html.fromHtml(styledText), TextView.BufferType.SPANNABLE);
     }
 }

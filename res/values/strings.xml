@@ -1,5 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="fun_text">I like &lt;font color=\'0x00b0f1\'>BLUE!&lt;/font> and &lt;b> Bold&lt;/b> and &lt;i> italic&lt;/i> and &lt;u> underline&lt;/u>.</string>
 	<string name="app_name">TextFun</string>
+	<string name="fun_text">I like &lt;font color=\'0x00b0f1\'>BLUE!&lt;/font> and &lt;b> Bold&lt;/b> and &lt;i> italic&lt;/i> and &lt;u> underline&lt;/u>.</string>
+	<string name="color_map">Built in color names:&lt;br>\
+ 		&lt;font color=\'0x00FFFF\'>aqua\t&lt;/font>
+ 		&lt;font color=\'0x0000FF\'>blue\t\t&lt;/font>
+ 		&lt;font color=\'0xFF00FF\'>fuchsia\t\t&lt;/font>
+ 		&lt;font color=\'0x008000\'>green&lt;/font>&lt;br>
+ 		
+ 		&lt;font color=\'0x808080\'>grey\t\t&lt;/font>
+ 		&lt;font color=\'0x00FF00\'>lime\t\t&lt;/font>
+ 		&lt;font color=\'0x800000\'>maroon\t\t&lt;/font>
+ 		&lt;font color=\'0x000080\'>navy&lt;/font>&lt;br>
+ 		
+ 		&lt;font color=\'olive\'>olive\t&lt;/font>
+ 		&lt;font color=\'0x800080\'>purple\t&lt;/font>
+ 		&lt;font color=\'0xFF0000\'>red\t\t\t\t&lt;/font>
+ 		&lt;font color=\'0xC0C0C0\'>silver&lt;/font>&lt;br>
+ 		
+ 		&lt;font color=\'0x008080\'>teal\t\t&lt;/font>
+ 		&lt;font color=\'0xFFFFFF\'>white\t\t&lt;/font>
+ 		&lt;font color=\'0xFFFF00\'>yellow\t\t&lt;/font>
+ 		&lt;font color=\'0x000000\'>black&lt;/font>
+	</string>
+	<string name="formatting">Some formatting: &lt;blockquote>blockquote&lt;/blockquote> &lt;tt>teletype(monospace)&lt;/tt> &lt;sup>superscript&lt;/sup> &lt;sub>subscript&lt;/sub> &lt;big>big&lt;/big> &lt;small>small&lt;/small> &lt;dfn>dfn&lt;/dfn> &lt;cite>cite&lt;/cite></string>
+	<string name="headings">&lt;h1>Heading 1&lt;/h1> &lt;h2>Heading 2&lt;/h2> &lt;h3>Heading 3&lt;/h3> &lt;h4>Heading 4&lt;/h4> &lt;h5>Heading 5&lt;/h5> &lt;h6>Heading 6&lt;/h6> </string>
+	<string name="styling"> &lt;b>bold&lt;/b> &lt;i>italic&lt;/i> &lt;u>underline&lt;/u> &lt;strike>strikethru&lt;/strike> &lt;strong>strong&lt;/strong> </string>
+	
 </resources>
+<!-- 
+setTypefaceByIndex
+SANS_SERIF, SERIF, MONOSPACE 
+<div>
+<p>
+<br>
+
+<b>
+<i>
+<u>
+<strike>
+<strong>
+
+<blockquote></blockquote>
+<tt>
+<sup>
+<sub>
+<big>
+<small>
+<dfn>
+<cite>
+
+<h1..6>
+
+<a href="">
+<img src=
+
+<font size=
+<font color=
+
+&lt; '<'
+&gt; '>'
+&amp;
+&#
+&nbsp;
+
+colormap
+ aqua    0x00FFFF
+ black   0x000000
+ blue    0x0000FF
+ fuchsia 0xFF00FF
+ green   0x008000
+ grey    0x808080
+ lime    0x00FF00
+ maroon  0x800000
+ navy    0x000080
+ olive   0x808000
+ purple  0x800080
+ red     0xFF0000
+ silver  0xC0C0C0
+ teal    0x008080
+ white   0xFFFFFF
+ yellow  0xFFFF00
+-->

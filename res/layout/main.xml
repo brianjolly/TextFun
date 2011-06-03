@@ -1,14 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    >
-<TextView  
-	android:id="@+id/text_view"
-    android:layout_width="fill_parent" 
-    android:layout_height="wrap_content" 
-    android:text="@string/fun_text"
-    android:textSize="40sp"
-    />
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:background="#ffffffff"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+    <ScrollView android:id="@+id/scrollView1" android:layout_height="fill_parent" android:layout_width="wrap_content">
+        <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:layout_height="fill_parent" android:gravity="fill_vertical" android:orientation="vertical">
+            <TextView android:id="@+id/tv_style" android:text="@string/fun_text" android:textSize="40sp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+			<TextView android:id="@+id/tv_color_map" android:text="@string/color_map" android:textSize="20sp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+			<TextView android:id="@+id/tv_formating" android:text="@string/formatting" android:textSize="10sp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+			<TextView android:id="@+id/tv_styling" android:text="@string/styling" android:textSize="10sp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+			<TextView android:id="@+id/tv_headings" android:text="@string/headings" android:textSize="10sp" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </LinearLayout>
+    </ScrollView>
 </LinearLayout>
